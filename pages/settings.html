@@ -30,7 +30,21 @@ input[type=button] {
   margin-left: 150px;
  margin-top: 50px;
 }
-
+@media screen and (min-width:601px) and (max-width:768px){
+    input[type=button] {
+  width: 40%;
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 85px;
+ margin-top: 30px;
+}
+}
 input[type=button]:hover {
   background-color: pink;
 }
@@ -109,19 +123,19 @@ div {
         </div>
 
         <div class="bottom-navigation-bar">
-            <a class="bottom-menu-item">
+            <a class="bottom-menu-item" href="./../home.html">
                 <img src="./../img/home.png" class="bottom-menu-icon">
             </a>
     
-            <a class="bottom-menu-item">
+            <a class="bottom-menu-item" href="courses.html">
                 <img src="./../img/courses.png" class="bottom-menu-icon">
             </a>
     
-            <a class="bottom-menu-item">
+            <a class="bottom-menu-item" href="settings.html">
                 <img src="./../img/setting.png" class="bottom-menu-icon">
             </a>
     
-            <a class="bottom-menu-item">
+            <a class="bottom-menu-item" href="logout.html">
                 <img src="./../img/logout.png" class="bottom-menu-icon">
             </a>
         </div>
