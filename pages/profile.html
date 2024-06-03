@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <style>
+        .profile-container{
+   display: flex;
+   flex-direction: end;
+   flex-wrap:wrap;
+
+}
+.card-container{
+   
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+   margin-right: auto;
+}
+.profile-card{
+    background-image: linear-gradient(to top, plum 0%, plum 1%, plum 100%);
+    width: 400px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(199, 174, 199);
+    align-content: center;
+  
+}
+.profile-img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+h3{
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    background-color: rgb(206, 161, 206);
+    color: blue;
+    padding: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color:wheat;
+    font-size: larger;
+     margin-bottom: 4px;
+   
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a class="menu-item" href="./../home.html">
+                <img src="./../img/home.png" class="menu-icon"/>
+                <span class="menu-text">Home</span>
+            </a>
+        
+                <a class="menu-item" href="courses.html">
+                    <img src="./../img/courses.png" class="menu-icon"/>
+                    <span class="menu-text">Courses</span>
+                </a>
+        
+                    <a class="menu-item" href="profile.html">
+                        <img src="./../img/profile.png" class="menu-icon"/>
+                        <span class="menu-text">Profile</span>
+                    </a>
+                        
+                        <a class="menu-item" href="analytics.html">
+                            <img src="./../img/analytics.png" class="menu-icon"/>
+                            <span class="menu-text">Analytics</span>
+                        </a>
+        
+                        <a class="menu-item" href="project.html">
+                            <img src="./../img/project.png" class="menu-icon"/>
+                            <span class="menu-text">Project</span>
+                        </a>
+        
+                            <a class="menu-item" href="logout.html">
+                                <img src="./../img/logout.png" class="menu-icon"/>
+                                <span class="menu-text">Log out</span>
+                            </a>
+        
+                            <a class="menu-item" href="settings.html">
+                                <img src="./../img/setting.png" class="menu-icon"/>
+                                <span class="menu-text">Settings</span>
+                            </a>
+        </div>
+        <div class="card-container">
+        <div class="profile-container">
+            <div class="profile-card">
+                <img src="./../img/p.jpeg" class="profile-img"/>
+                <h3 class="profile-name"></h3>
+                <h1>WHO AM I?</h1>
+                <p>Hi I'm Jack Smith. Click here to add your own text and edit me. ​Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+             <button class="btn">know more</button>
+                </div>
+                </div>    
+             
+                <div class="bottom-navigation-bar">
+                    <a class="bottom-menu-item">
+                        <img src="./../img/home.png" class="bottom-menu-icon">
+                    </a>
+            
+                    <a class="bottom-menu-item">
+                        <img src="./../img/courses.png" class="bottom-menu-icon">
+                    </a>
+            
+                    <a class="bottom-menu-item">
+                        <img src="./../img/setting.png" class="bottom-menu-icon">
+                    </a>
+            
+                    <a class="bottom-menu-item">
+                        <img src="./../img/logout.png" class="bottom-menu-icon">
+                    </a>
+                </div>
+</body>
+</html>
