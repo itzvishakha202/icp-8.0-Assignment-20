@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <style>
+        input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=button] {
+  width: 40%;
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 150px;
+ margin-top: 50px;
+}
+
+input[type=button]:hover {
+  background-color: pink;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.form{
+    width: 50%;
+    margin-top: auto;
+    padding: 15px;
+   background-color: gainsboro;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: auto;
+}
+    h3{
+        color: rgb(43, 7, 43);
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a class="menu-item" href="./../home.html">
+                <img src="./../img/home.png" class="menu-icon"/>
+                <span class="menu-text">Home</span>
+            </a>
+        
+                <a class="menu-item" href="courses.html">
+                    <img src="./../img/courses.png" class="menu-icon"/>
+                    <span class="menu-text">Courses</span>
+                </a>
+        
+                    <a class="menu-item" href="profile.html">
+                        <img src="./../img/profile.png" class="menu-icon"/>
+                        <span class="menu-text">Profile</span>
+                    </a>
+                        
+                        <a class="menu-item" href="analytics.html">
+                            <img src="./../img/analytics.png" class="menu-icon"/>
+                            <span class="menu-text">Analytics</span>
+                        </a>
+        
+                        <a class="menu-item" href="project.html">
+                            <img src="./../img/project.png" class="menu-icon"/>
+                            <span class="menu-text">Project</span>
+                        </a>
+        
+                            <a class="menu-item" href="logout.html">
+                                <img src="./../img/logout.png" class="menu-icon"/>
+                                <span class="menu-text">Log out</span>
+                            </a>
+        
+                            <a class="menu-item" href="settings.html">
+                                <img src="./../img/setting.png" class="menu-icon"/>
+                                <span class="menu-text">Settings</span>
+                            </a>
+        </div>
+        <div class="form">
+        <h3>All Settings</h3>
+          <form action="./home.html">
+            <label for="Twitter Profile url">Twitter Profile</label>
+            <input type="text" name="Twitter Profile">
+        
+            <label for="Instagram Profile">Instagram Profile</label>
+            <input type="text"  name="Instagram Profile">
+            <input type="button" value="Save Changes">
+          </form>
+        </div>
+
+        <div class="bottom-navigation-bar">
+            <a class="bottom-menu-item">
+                <img src="./../img/home.png" class="bottom-menu-icon">
+            </a>
+    
+            <a class="bottom-menu-item">
+                <img src="./../img/courses.png" class="bottom-menu-icon">
+            </a>
+    
+            <a class="bottom-menu-item">
+                <img src="./../img/setting.png" class="bottom-menu-icon">
+            </a>
+    
+            <a class="bottom-menu-item">
+                <img src="./../img/logout.png" class="bottom-menu-icon">
+            </a>
+        </div>
+</body>
+</html>
