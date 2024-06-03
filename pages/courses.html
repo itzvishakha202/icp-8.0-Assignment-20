@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+<link rel="stylesheet" href="./../css/style.css">
+<style>
+    
+    .card-img{
+        height: 50px;
+        width: 50px;
+        box-shadow: 2px 2px 2px gainsboro;
+        padding: 10px;
+        
+    }
+    .card-container{
+        height: auto;
+        width: 300px;
+        box-shadow: 5px 5px 5px gray;
+        padding: 5px;
+        margin: 40px 0px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .card-container1{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+       
+    }
+    .card-header-section{
+        display: flex;  
+        align-items: center;
+        font-size: 12px;   
+        justify-content: center;   
+    }
+
+    .card-heading{
+     margin-left: 5px;
+     padding: 10px;
+    }
+    .head{
+       text-align: center;
+        color: tomato;
+        font-size: 20px;
+    }
+    .desc{
+      margin: 0; 
+    }
+    /* small devices */
+    @media screen and (max-width:600px){
+    .card-heading{
+        text-align: center;
+        color: rgb(35, 35, 251);  
+        font-size: 30px;
+}
+    .head{
+        color: brown;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+}
+    /* normal devices */
+    @media screen and (min-width:601px) and (max-width:768px){
+.card-heading{
+        text-align: center;
+        color: rgb(172, 172, 201);  
+        font-size: 30px;
+}
+    .head{
+        color: rgb(75, 14, 24);
+        font-size: 40px;
+        text-align: center;
+    }
+   
+.card-container1{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+    }
+    /* tablet devices */
+    @media screen and (min-width:769px) and (max-width:992px){
+        .card-container{
+        justify-content:start;
+    }
+
+}
+.card{
+    margin: 10px;
+}
+    /* large devices */
+    @media screen and (min-width:200px) and (max-width:471px){
+      
+    .card-container1{
+    width: 100%;
+   justify-content: center;
+}
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a class="menu-item" href="./../home.html">
+                <img src="./../img/home.png" class="menu-icon"/>
+                <span class="menu-text">Home</span>
+            </a>
+        
+                <a class="menu-item" href="courses.html">
+                    <img src="./../img/courses.png" class="menu-icon"/>
+                    <span class="menu-text">Courses</span>
+                </a>
+        
+                    <a class="menu-item" href="profile.html">
+                        <img src="./../img/profile.png" class="menu-icon"/>
+                        <span class="menu-text">Profile</span>
+                    </a>
+                        
+                        <a class="menu-item" href="analytics.html">
+                            <img src="./../img/analytics.png" class="menu-icon"/>
+                            <span class="menu-text">Analytics</span>
+                        </a>
+        
+                        <a class="menu-item" href="project.html">
+                            <img src="./../img/project.png" class="menu-icon"/>
+                            <span class="menu-text">Project</span>
+                        </a>
+        
+                            <a class="menu-item" href="logout.html">
+                                <img src="./../img/logout.png" class="menu-icon"/>
+                                <span class="menu-text">Log out</span>
+                            </a>
+        
+                            <a class="menu-item" href="settings.html">
+                                <img src="./../img/setting.png" class="menu-icon"/>
+                                <span class="menu-text">Settings</span>
+                            </a>
+                        </div>
+                        <div class="head">COURSES</div>
+                 <div class="card-container1">
+                 <div class="card-container">
+                     <div class="card">
+                         <div class="card-header-section">
+                         <img src="./../img/icons8-web-development-48.png" class="card-img">
+                          <h1 class="card-heading">full stack development</h1>  
+                          </div>  
+                          <p class="desc">Our course price ranges from ₹499 to ₹1999.</p>
+                         </div>
+                         </div>
+                         <div class="card-container">
+                         <div class="card">
+                             <div class="card-header-section">
+                             <img src="./../img/icons8-c-50.png" class="card-img">
+                              <h1 class="card-heading">C++ Language</h1>  
+                              </div>  
+                              <p class="desc">Our course price ranges from ₹999 to ₹1999.</p>
+                             </div>
+                             </div>
+                             <div class="card-container">
+                             <div class="card">
+                                 <div class="card-header-section">
+                                 <img src="./../img/icons8-python-48.png" class="card-img">
+                                  <h1 class="card-heading">Python</h1>  
+                                  </div>  
+                                  <p class="desc">Price range between ₹1999</p>
+                                 </div>
+                                 </div>
+                                 <div class="card-container">
+                                 <div class="card">
+                                     <div class="card-header-section">
+                                     <img src="./../img/icons8-java-48.png" class="card-img">
+                                      <h1 class="card-heading">Java</h1>  
+                                      </div>  
+                                      <p class="desc">Our course price ranges from ₹1999 to ₹2999.</p>
+                                     </div>
+                                 </div>
+                              </div>
+    </div>
+
+    <div class="bottom-navigation-bar">
+        <a class="bottom-menu-item">
+            <img src="./../img/home.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./../img/courses.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./../img/setting.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./../img/logout.png" class="bottom-menu-icon">
+        </a>
+    </div>
+</body>
+</html>
