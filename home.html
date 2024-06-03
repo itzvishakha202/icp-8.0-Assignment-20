@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            background-color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar{
+              background-color: rgb(140, 99, 179);
+              width: 220px;
+        }
+        .content{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0GTKpv-GgEHkO2nKSsN-XgWkFUdAjU9z6uQ&s");
+            width: 100%;
+            background-size: cover;
+            text-align: center;
+            color: brown;
+            font-size: 50px;
+        }
+        .menu-icon{
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+
+        }
+        .menu-item{
+            background-color: white;
+           margin: 10px;
+           padding: 10px;
+           border-radius: 5px;
+           display: flex;
+           align-content: center;
+           padding: 5px 20px;
+           cursor: pointer;
+
+        }
+        .menu-text{
+           margin-left: 30px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="sidebar">
+    <a class="menu-item" href="home.html">
+        <img src="./img/home.png" class="menu-icon"/>
+        <span class="menu-text">Home</span>
+    </a>
+
+        <a class="menu-item" href="./pages/courses.html">
+            <img src="./img/courses.png" class="menu-icon"/>
+            <span class="menu-text">Courses</span>
+        </a>
+
+            <a class="menu-item" href="./pages/profile.html">
+                <img src="./img/profile.png" class="menu-icon"/>
+                <span class="menu-text">Profile</span>
+            </a>
+                
+                <a class="menu-item" href="./pages/analytics.html">
+                    <img src="./img/analytics.png" class="menu-icon"/>
+                    <span class="menu-text">Analytics</span>
+                </a>
+
+                <a class="menu-item" href="./pages/project.html">
+                    <img src="./img/project.png" class="menu-icon"/>
+                    <span class="menu-text">Project</span>
+                </a>
+
+                    <a class="menu-item" href="./pages/logout.html">
+                        <img src="./img/logout.png" class="menu-icon"/>
+                        <span class="menu-text">Log out</span>
+                    </a>
+
+                    <a class="menu-item" href="./pages/settings.html">
+                        <img src="./img/setting.png" class="menu-icon"/>
+                        <span class="menu-text">Settings</span>
+                    </a>
+</div>
+<div class="content">WELCOME TO CODEHUB</div>
+    </div>
+
+    <div class="bottom-navigation-bar">
+        <a class="bottom-menu-item">
+            <img src="./img/home.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./img/courses.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./img/setting.png" class="bottom-menu-icon">
+        </a>
+
+        <a class="bottom-menu-item">
+            <img src="./img/logout.png" class="bottom-menu-icon">
+        </a>
+    </div>
+</body>
+</html>
